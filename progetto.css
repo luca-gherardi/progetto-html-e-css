@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEDF0;
+}
+
+/*NAVBAR*/
+.navbar-container{
+  background-image: linear-gradient(to top, #232526, #2a2c2d, #323435, #393b3d, #414345);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar{
+  width: 900px;
+}
+/*.navbar{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}*/
+
+.navbar2{
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav, .main-social{
+  display: flex;
+  list-style: none;
+}
+
+.nav-links, .logo{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links:hover{
+  color:#ffff00;
+}
+
+.logo{
+  margin-left: 5px;
+}
+
+.main-social li{
+  margin-right: 5px;
+}
+
+.main-nav li,
+.main-social li{
+  margin-left: 5px;
+}
+
+/*FOTO E BIO*/
+.profile-container{
+  width: 100%;
+  background-color: #EAEDF0;
+  height: 600px;
+}
+
+.profile{
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.profile img{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.bio-title{
+  margin:6px 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+/*SKILLS*/
+.skills-container{
+  width: 100%;
+  background-color: #B3B3B3;
+  height: 600px;
+}
+
+.title{
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 1.3em;
+}
+
+.skills{
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  background-color: #616161;
+  height: 90%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.strumento{
+  font-size: 0.7em;
+  font-weight: 400;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.progressi{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 10px;
+  background-color: #424242;
+}
+
+.barra-progressi{
+  border-radius: 10px;
+  height: 10px;
+  background-color: #ffff00;
+}
+
+.l-80{
+  width: 80%;
+}
+
+.l-75{
+  width: 75%;
+}
+
+.l-70{
+  width: 70%;
+}
+
+.l-65{
+  width: 65%;
+}
+
+.l-55{
+  width: 55%;
+}
+
+.l-45{
+  width: 45%;
+}
+
+.l-35{
+  width: 35%;
+}
+
+/*PROGETTI*/
+.project-title{
+  font-size: 1.3em;
+  margin-bottom: 4px;
+}
+
+/*CONTATTI*/
+.contact-container{
+  background-color: #B3B3B3;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background-color:#EAEDF0;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-row{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 6px 9px;
+  border-radius: 8px;
+}
+
+.form-row label{
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.form-row input, .form-row textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.button button{
+  background: #616161;
+  padding: 6px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.button button:hover{
+  background-color: #ffff00;
+  color: black;
+}
+
+.button button:active{
+  background-color: #424242;
+}
+
+
+
+/*FOOTER*/
+.footer-container{
+  background-image: linear-gradient(to top, #232526, #2a2c2d, #323435, #393b3d, #414345);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  width: 900px;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.foot-links{
+  text-decoration: none;
+  color: white;
+  margin: 0 5px 0 5px;
+}
+
+.footer-write{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.foot-links:hover{
+  color:#ffff00;
+}
+
+
+
+
+/*MOBILE*/
+@media only screen and (max-width: 400px) {
+
+
+
+}
+
+/*TABLET*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+/*NAVBAR*/
+  .navbar{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .main-nav li{
+    margin-right: 20px;
+  }
+
+/*FOTO E BIO*/
+.profile{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.profile-foto{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-bio p{
+  font-size: 1.1rem;
+}
+
+/*PROGETTI*/
+ .project-social,
+ .project-facebook,
+ .project-seo,
+ .project-google,
+ .project-funnel,
+ .project-linkedin {
+   width: 50%;
+ }
+
+/*FOOTER*/
+.footer-write{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.footer-social{
+  font-size: 1.2rem;
+  }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 961px) {
+
+      .page {
+        margin: 0 auto;
+      }
+
+    /*NAVBAR*/
+      .navbar{
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.4rem;
+      }
+
+      .main-nav li{
+        margin-right: 20px;
+      }
+
+    /*FOTO E BIO*/
+    .profile{
+      display: flex;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    .profile-foto{
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .profile img{
+      width: 400px;
+      height: 430px;
+    }
+
+    .profile-bio p{
+      font-size: 1.2rem;
+    }
+
+    /*SKILLS*/
+      .skills{
+        width: 50%;
+        height: 50%;
+      }
+
+    /*PROGETTI*/
+      .project-social,
+      .project-facebook,
+      .project-seo,
+      .project-google,
+      .project-funnel,
+      .project-linkedin {
+        width: 33.3%;
+      }
+
+    /*FOOTER*/
+      .footer-write{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .footer-social{
+        font-size: 1.4rem;
+      }
+
+}
+
+/*SCOLLBAR LAYOUT*/
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: .25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: .25rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffff00;
+}
